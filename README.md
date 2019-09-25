@@ -70,8 +70,22 @@
 - TS can prevent us from adding in-compatible values to an array
 - TS supports Type inference on inBuilt Array methods and their return types
 
-## Interfaces and Classes
+## Interfaces
 
 - Creates a new Type - used on Object type variables
 - constrains the properties and their value types, the object the given variable can hold
 - We can program to Interface - in a convenient manner
+
+## Classes - TS **augments** the `Class` infrastructure with `Modifiers`
+
+- `public` - methods / properties can be accessed from anywhere on the given instance
+- `private` - methods / properties can be accessed by other methods in the class
+- `protected`- methods / properties can be accessed by other methods of the class or the child classes
+
+> TYPE SCRIPT can be seen as wafer thin layer of extra code whose sole purpose is to `enforce` some `design rules`
+> one can manually follow them and design will remain the same. However it will be prone to HUMAN errors.
+> TS comes to your rescue!
+> TS compiler enforces these rules before you could even run the program.
+> CATCH is these rules cease to exist in the running program
+>
+> oO!)
