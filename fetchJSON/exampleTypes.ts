@@ -7,7 +7,7 @@ const fn = function(kim, kar) {};
 const fn_ = function(kim: number, kar: string): number {
   return 10;
 };
-const obj = {
+const objs = {
   age: 10,
   name: "test"
 };

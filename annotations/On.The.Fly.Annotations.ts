@@ -39,14 +39,14 @@ function himler_(obj: { dte: Date; name: string }): string {
  * De-structured arguments
  */
 
- /**
-  * 
-  * This will not work because it is valid syntactical form of destructuring
-  */
-function himler__({ dte: dte : Date, name: string }): string {
+/**
+ *
+ * This will not work because it is valid syntactical form of destructuring
+ */
+function himler__({ dte: Date, name: string }): string {
   return "any";
 }
 /**vlaid way of  type annotating */
-function himler__x({ dte,name }:{dte:Date;name:string;}): string {
-    return "any";
-  }
+function himler__x({ dte, name }: { dte: Date; name: string }): string {
+  return "any";
+}
